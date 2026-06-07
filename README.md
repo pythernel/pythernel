@@ -10,7 +10,7 @@ class mcp7x:
     discord   = "mcp7x"
     langs     = ["Python", "Rust", "C", "TypeScript", "Go"]
     domains   = ["binary analysis", "tool development", "network security", "cryptography"]
-    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay", "Kit"]
+    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay", "Kit", "Discord"]
 ```
 
 ---
@@ -54,6 +54,10 @@ TCP port relay / forwarder — local port forwarding and multi-hop chain relay t
 **[/Kit](https://github.com/pythernel/Kit)** ![](https://img.shields.io/github/stars/pythernel/Kit?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Kit?style=flat-square&color=6C47FF)
 
 Unified CLI launcher — one entry point for all security tools. Install once, type `kit <command>` from anywhere.
+
+**[/Discord](https://github.com/pythernel/Discord)** ![](https://img.shields.io/github/stars/pythernel/Discord?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Discord?style=flat-square&color=6C47FF)
+
+Full terminal Discord client — connects via Gateway WebSocket for real-time messaging, server/channel navigation, DMs, reactions, file uploads, search, presence tracking, and typing indicators. All-in-one TUI.
 
 ---
 
