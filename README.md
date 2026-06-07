@@ -2,7 +2,7 @@
   <h1>
     <code>mcp7x</code>
   </h1>
-  <p><sub>tooling · low-level · security</sub></p>
+  <p><sub>tooling · systems · security</sub></p>
   <p>
     <a href="https://discord.com/users/mcp7x"><img src="https://img.shields.io/badge/Discord-mcp7x-5865F2?style=flat-square&logo=discord&logoColor=white"/></a>
     <img src="https://komarev.com/ghpvc/?username=pythernel&color=6C47FF&style=flat-square&label=views"/>
