@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=600&color=6C47FF&center=true&vCenter=true&width=500&lines=mcp7x;pentest+%26+programming" alt="mcp7x"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=6C47FF&center=true&vCenter=true&width=450&lines=mcp7x;discord+%3A+mcp7x;pentest+%26+programming" alt="mcp7x"/>
 </p>
 
 ```python
@@ -13,30 +13,33 @@ class mcp7x:
         return "security engineer — offensive tooling & low-level research"
 ```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-</p>
-
 ---
 
 ### projects
 
-**[/SpectreC2](https://github.com/pythernel/SpectreC2)** — Encrypted C2 framework. AES-256-GCM beaconing over HTTP/JSON with REST API task management. Multi-platform implants with modular command routing (shell, file ops, process injection). SQLite-backed listener and agent persistence.
+**[/SpectreC2](https://github.com/pythernel/SpectreC2)** ![](https://img.shields.io/github/stars/pythernel/SpectreC2?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/SpectreC2?style=flat-square&color=6C47FF)
 
-**[/Shroud](https://github.com/pythernel/Shroud)** — Windows PE crypter. Iterates COFF section table, applies XOR encryption to `.text` and `.rdata` sections, then appends a polymorphic loader stub. The stub resolves `kernel32.dll` at runtime, decrypts sections in place, and jumps to the original entry point.
+Encrypted C2 framework — AES-256-GCM beaconing over HTTP/JSON, REST API tasking, multi-platform implants with modular command routing. SQLite-backed.
 
-**[/pentest-toolkit](https://github.com/pythernel/pentest-toolkit)** — Six offensive security modules:
-- Async TCP port scanner with banner grabbing and 104 service signatures
-- PE structure analyzer (DOS/NT headers, sections, import/export directories)
-- Raw socket packet sniffer — Ethernet, IP, TCP, UDP, ICMP parsing
-- Shellcode injector — local thread, callback (`EnumWindows`), remote process
-- Exploit dev utilities — cyclic pattern, ROP gadget search, bad char analysis, XOR/ADD encoders, buffer builder
-- Crypto toolkit — hash identifier (15 types), wordlist cracker, XOR bruteforce with crib dragging, base64/32/16 detection
+**[/Shroud](https://github.com/pythernel/Shroud)** ![](https://img.shields.io/github/stars/pythernel/Shroud?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Shroud?style=flat-square&color=6C47FF)
+
+Windows PE crypter — section-level XOR encryption with runtime polymorphic loader stub appended to target binary.
+
+**[/pentest-toolkit](https://github.com/pythernel/pentest-toolkit)** ![](https://img.shields.io/github/stars/pythernel/pentest-toolkit?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/pentest-toolkit?style=flat-square&color=6C47FF)
+
+Six offensive modules:
+- Async TCP scanner with service fingerprinting (104 signatures) and banner grab
+- PE analyzer — DOS/NT headers, sections, import/export tables
+- Raw packet sniffer — Ethernet, IP, TCP, UDP, ICMP parsing
+- Shellcode injector — 3 techniques (local thread, callback, remote process)
+- Exploit utilities — cyclic pattern, ROP search, bad char analysis, XOR/ADD encoder, buffer builder
+- Crypto toolkit — hash identifier, wordlist cracker, XOR bruteforce, crib drag, base64/32/16
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,rust,c,typescript,go,docker,postgres,fastapi,neovim&perline=9" />
+</p>
 
 ---
 
@@ -47,14 +50,14 @@ class mcp7x:
 | **binary** | PE/ELF internals, x86/x64 asm, Windows API, process injection, memory dumping and analysis |
 | **network** | raw sockets, protocol parsing, packet capture/analysis, C2 infrastructure design and deployment |
 | **crypto** | AES-256-GCM, XOR analysis and bruteforce, hash identification and cracking, crib dragging |
-| **stack** | Python, Rust, C, TypeScript, Go — FastAPI, Docker, PostgreSQL, async/await patterns |
+| **stack** | Python, Rust, C, TypeScript, Go — FastAPI, Docker, PostgreSQL |
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pythernel&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&icon_color=6C47FF&text_color=FFFFFF&title_color=6C47FF&hide=contribs" height="140"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pythernel&theme=dark&hide_border=true&background=0D1117&stroke=6C47FF&ring=6C47FF&fire=6C47FF&currStreakLabel=6C47FF" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pythernel&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&text_color=FFFFFF&title_color=6C47FF&langs_count=6" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=pythernel&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&icon_color=6C47FF&text_color=FFFFFF&title_color=6C47FF&hide=contribs" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pythernel&theme=dark&hide_border=true&background=0D1117&stroke=6C47FF&ring=6C47FF&fire=6C47FF&currStreakLabel=6C47FF" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pythernel&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&text_color=FFFFFF&title_color=6C47FF&langs_count=6" height="150"/>
 </p>
 
 <p align="center">
