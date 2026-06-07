@@ -13,7 +13,7 @@ class mcp7x:
     discord   = "mcp7x"
     langs     = ["Python", "Rust", "C", "TypeScript", "Go"]
     domains   = ["binary analysis", "tool development", "network security", "cryptography"]
-    projects  = ["SpectreC2", "Shroud", "pentest-toolkit"]
+    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay"]
 ```
 
 ---
@@ -37,6 +37,10 @@ Six security modules:
 - Shellcode injector — local thread, callback, and remote process injection
 - Exploit utilities — cyclic patterns, ROP gadget search, bad char analysis, XOR/ADD encoder
 - Crypto toolkit — hash identifier (15 types), wordlist cracker, XOR bruteforce, crib dragging, base64/32/16
+
+**[/Stay](https://github.com/pythernel/Stay)** ![](https://img.shields.io/github/stars/pythernel/Stay?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Stay?style=flat-square&color=6C47FF)
+
+Windows post-exploitation persistence toolkit — install, check, and remove persistence via registry Run keys, startup folder LNK, scheduled tasks, WMI event subscriptions, and Windows services.
 
 ---
 
