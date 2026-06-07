@@ -47,13 +47,20 @@ print(me.greet())
 ### 🛡️ [Behemoth](https://github.com/pythernel/Behemoth-bot)
 Modular Discord bot with anti-nuke protection, auto-moderation, economy, music, AI chat, and a real-time Next.js dashboard with 3D security visualization.
 
+### 🎯 [SpectreC2](https://github.com/pythernel/SpectreC2)
+Encrypted C2 framework with AES-256-GCM beaconing, multi-platform implants, REST API, and real-time task management.
+
+### 🔧 [Shroud](https://github.com/pythernel/Shroud)
+Windows PE crypter — section encryption, polymorphic loader stub, and anti-analysis features.
+
 ### 🔧 [Pentest Toolkit](https://github.com/pythernel/pentest-toolkit)
 Collection of offensive security tools:
 - **Port Scanner** — Async TCP scanner with service fingerprinting
-- **PE Analyzer** — Windows Portable Executable structure parser
+- **PE Analyzer** — Windows PE structure parser
 - **Packet Sniffer** — Network traffic capture and analysis
-- **Hash Buster** — Hash type identification and cracking
-- **Sub Enum** — DNS subdomain enumeration
+- **Shellcode Runner** — Multi-technique shellcode execution
+- **Exploit Dev** — Pattern generator, encoder, ROP builder, bad char finder
+- **Crypto Tools** — Hash identification, cracking, XOR bruteforce
 
 ---
 
