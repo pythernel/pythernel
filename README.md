@@ -13,7 +13,7 @@ class mcp7x:
     discord   = "mcp7x"
     langs     = ["Python", "Rust", "C", "TypeScript", "Go"]
     domains   = ["binary analysis", "tool development", "network security", "cryptography"]
-    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay"]
+    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay"]
 ```
 
 ---
@@ -41,6 +41,18 @@ Six security modules:
 **[/Stay](https://github.com/pythernel/Stay)** ![](https://img.shields.io/github/stars/pythernel/Stay?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Stay?style=flat-square&color=6C47FF)
 
 Windows post-exploitation persistence toolkit — install, check, and remove persistence via registry Run keys, startup folder LNK, scheduled tasks, WMI event subscriptions, and Windows services.
+
+**[/Token](https://github.com/pythernel/Token)** ![](https://img.shields.io/github/stars/pythernel/Token?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Token?style=flat-square&color=6C47FF)
+
+Windows token manipulation toolkit — enumerate processes with integrity levels and privileges, duplicate tokens for command execution, adjust privilege states, and check privilege escalation vectors.
+
+**[/Callback](https://github.com/pythernel/Callback)** ![](https://img.shields.io/github/stars/pythernel/Callback?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Callback?style=flat-square&color=6C47FF)
+
+Reverse shell payload generator — multi-language (Python, PowerShell, C#, Bash, Netcat, Perl, PHP, Ruby) with base64 encoding support.
+
+**[/Relay](https://github.com/pythernel/Relay)** ![](https://img.shields.io/github/stars/pythernel/Relay?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Relay?style=flat-square&color=6C47FF)
+
+TCP port relay / forwarder — local port forwarding and multi-hop chain relay through intermediate hosts for network pivoting.
 
 ---
 
