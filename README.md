@@ -10,7 +10,7 @@ class mcp7x:
     discord   = "mcp7x"
     langs     = ["Python", "Rust", "C", "TypeScript", "Go"]
     domains   = ["binary analysis", "tool development", "network security", "cryptography"]
-    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay", "Kit", "Discord"]
+    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay", "Kit", "ReconCLI"]
 ```
 
 ---
@@ -55,9 +55,9 @@ TCP port relay / forwarder — local port forwarding and multi-hop chain relay t
 
 Unified CLI launcher — one entry point for all security tools. Install once, type `kit <command>` from anywhere.
 
-**[/Discord](https://github.com/pythernel/Discord)** ![](https://img.shields.io/github/stars/pythernel/Discord?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Discord?style=flat-square&color=6C47FF)
+**[/ReconCLI](https://github.com/pythernel/ReconCLI)** ![](https://img.shields.io/github/stars/pythernel/ReconCLI?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/ReconCLI?style=flat-square&color=6C47FF)
 
-Full terminal Discord client — connects via Gateway WebSocket for real-time messaging, server/channel navigation, DMs, reactions, file uploads, search, presence tracking, and typing indicators. All-in-one TUI.
+Network reconnaissance toolkit — async TCP port scanner (top/full/custom), service fingerprinting via banner grabbing (HTTP, SSH, FTP, SMTP, SMB, RDP, MySQL, Redis, VNC, 20+ more), TTL-based OS detection (Windows/Linux/Cisco/Solaris), host discovery with CIDR expansion, DNS resolution, and JSON/CSV export. Zero dependencies, pure .NET 6.
 
 ---
 
