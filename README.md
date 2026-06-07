@@ -10,7 +10,7 @@ class mcp7x:
     discord   = "mcp7x"
     langs     = ["Python", "Rust", "C", "TypeScript", "Go"]
     domains   = ["binary analysis", "tool development", "network security", "cryptography"]
-    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay"]
+    projects  = ["SpectreC2", "Shroud", "pentest-toolkit", "Stay", "Token", "Callback", "Relay", "Kit"]
 ```
 
 ---
@@ -50,6 +50,10 @@ Reverse shell payload generator — multi-language (Python, PowerShell, C#, Bash
 **[/Relay](https://github.com/pythernel/Relay)** ![](https://img.shields.io/github/stars/pythernel/Relay?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Relay?style=flat-square&color=6C47FF)
 
 TCP port relay / forwarder — local port forwarding and multi-hop chain relay through intermediate hosts for network pivoting.
+
+**[/Kit](https://github.com/pythernel/Kit)** ![](https://img.shields.io/github/stars/pythernel/Kit?style=flat-square&color=6C47FF) ![](https://img.shields.io/github/license/pythernel/Kit?style=flat-square&color=6C47FF)
+
+Unified CLI launcher — one entry point for all security tools. Install once, type `kit <command>` from anywhere.
 
 ---
 
